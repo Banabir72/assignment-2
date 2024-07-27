@@ -1,16 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.cdnfonts.com/css/miama');
 .inter{
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
-    font-weight: <weight>;
+    font-weight: 400;
     font-style: normal;
     font-variation-settings:
       "slnt" 0;
   }
+.miama{
+    font-family: "miama", sans-serif;
+    font-size: 4.8rem;
+}
 body{
     background-color: black;
     max-width: 75%;
     margin: 0 auto;
+    color: white;
+}
+header{
+    background:linear-gradient(360.00deg, rgb(17, 17, 17), rgba(8, 8, 8, 0.8) 100%);
 }
 /* navbar styles */
 .navbar{
@@ -59,6 +68,41 @@ li>a{
 .menu-icon{
     display: none;
 }
+/* banner styles */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    gap: 80px;
+    padding-right: -240px;
+    /* align-items: center; */
+}
+.banner-details{
+    width: 35%;
+}
+.banner-title{
+    font-size: 4.8rem;
+}
+.banner-card-1{
+    width: 195px;
+    background-color: rgba(255, 255, 255, 0.23);
+    border-radius: 12px;
+    padding: 24px 17px;
+    margin-top: -450px;
+    margin-left: 230px;
+    /* text-align: center; */
+}
+.card-1-title, .card-1-description{
+    margin: 0;
+}
+.card-1-title{
+    font-size: 2.5rem;
+    font-weight: 900;
+    color: rgba(255, 255, 255, 1);
+}
+.card-1-description{
+    font-size: 0.8rem;
+    color: rgba(255, 255, 255, 0.65);
+}
 /* Media Query for Small Device */
 @media screen and (max-width: 576px) {
     body{
@@ -78,7 +122,5 @@ li>a{
     }
     .menu-icon{
         display: block;
-        height: 24px;
-        width: 24px;
     }
 }
