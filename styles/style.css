@@ -1,7 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 @import url(' https://fonts.cdnfonts.com/css/miama' );
-
+*{
+  padding: 0;
+  margin: 0;
+}
 
 .inter{
     font-family: "Inter", sans-serif;
@@ -41,6 +44,7 @@
 ul{
     display: flex;
     gap: 45px;
+    margin: 0 auto;
 }
 ul li{
     list-style: none;
@@ -51,7 +55,10 @@ ul li{
     align-items: center;
     justify-content: center;
     text-align: center;
-    padding: 12px;
-    padding-right: 20px;
+    padding: 12px 10px;
+    /* padding-right: 20px; */
     margin: 0;
+}
+.home{
+  margin-left: 0;
 }
