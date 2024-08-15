@@ -22,7 +22,8 @@
   }
   header{
     width: 100%;
-    background: linear-gradient(180.00deg, rgb(17, 17, 17), rgba(8, 8, 8, 0.8) 100%);
+    background: linear-gradient(360.00deg, rgb(0, 0, 0), rgba(119, 119, 119, 0.5) 100%);
+    /* background: linear-gradient(180.00deg, rgb(0, 0, 0),rgba(119, 119, 119, 0.5) 100%); */
   }
   /* Navbar style */
 .header{
@@ -154,4 +155,8 @@ font-weight: 400;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+/* responsive for small devices */
+@media screen and (max-width:576px) {
+  
 }
